@@ -16,7 +16,6 @@ function setTitle(){
 }
 
 function setBG(){
-    let b = document.getElementById("input3").value;
     box.style.backgroundImage = 'url(' + input3.value + ')';
 
     let output = document.getElementById("output");
