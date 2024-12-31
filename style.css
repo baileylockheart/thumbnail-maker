@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Comic Mono;
+    src: url(https://dtinth.github.io/comic-mono-font/ComicMono-Bold.ttf);
+  }
+  :root{
+    --font:"Comic Mono", monospace;
+    --bg:#feeac5;
+    --text:black;
+}
+body{
+    font-family: var(--font);
+    color:var(--text);
+    font-size: 90px;
+    line-height:normal;
+    font-weight:150;
+}
+#box{
+    background-attachment: scroll;
+    content: '';
+    transform: scale(1);
+    z-index: -700;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 55rem;
+    height:31rem;
+    left:210px;
+    top:50px;
+    border:solid 2px black
+}
+
+#namebox{
+    display: flex;
+    background-color: var(--bg);
+    border-radius: 10px;
+    padding:15px 25px 15px;
+    font-size: 2.5rem;
+    text-align: start;
+    margin: 50px auto;
+    width:fit-content
+}
+#name{
+    padding-top: 9px;
+    padding-right:9px;
+}
+#title{
+    background-color: var(--bg);
+    border-radius: 10px;
+    padding:25px 25px 15px;
+    font-size: 2rem;
+    text-align: start;
+    margin: 250px auto 0px;
+    width:fit-content
+}
+#thingy{
+    position:fixed;
+    top:-45px;
+}
+#thingy1{
+    position:fixed;
+    top:-45px;
+    left:250px;
+}
+#thingy2{
+    position:fixed;
+    top:-45px;
+    left:490px;
+}
+#submitbutton{margin-left: -35px;}
